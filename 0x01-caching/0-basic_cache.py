@@ -4,7 +4,7 @@ from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """represents object that allows storing, 
+    """represents object that allows storing,
     retrieving items from a dictionary"""
     def put(self, key, item):
         """Adds item in the cache"""
